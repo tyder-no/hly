@@ -18,7 +18,11 @@ import java.io.* ;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
+/**
 
+@author Trond Arild Ydersbond
+
+ */
 
 public class CompKernelTest {
 
