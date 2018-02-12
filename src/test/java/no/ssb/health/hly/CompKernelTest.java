@@ -21,7 +21,8 @@ import java.text.DecimalFormat;
 
 
 public class CompKernelTest {
-
+    /* This comment is added to the master branch only  */
+    
 	static int compYear=2006 ;
 	static HandlerHLYData hndlHLY ;
 	static ArraysHLY dataPack ;
