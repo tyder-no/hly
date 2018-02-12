@@ -19,7 +19,11 @@ import java.io.* ;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
+/**
 
+@author Trond Arild Ydersbond
+
+ */
 
 public class CompKernelTest {
     /* This comment is added to the master branch only  */
