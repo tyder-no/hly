@@ -1,0 +1,523 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="no">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Side ikke funnet / Page not found - SSB</title>
+      <link href="/_public/skins/advanced/ssb.no/styles/styles.css?_ts=14f4a5fc310" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="/_public/skins/advanced/ssb.no/styles/jquery-ui-1.8.2.custom.css?_ts=14f4a5fc310"><!--[if lt IE 7]>
+      <link rel="stylesheet" type="text/css" href="/_public/skins/advanced/ssb.no/styles/ie6.css?_ts=14f4a5fc310"><![endif]-->
+      <link href="/_public/skins/advanced/ssb.no/styles/print.css?_ts=14f4a5fc310" type="text/css" rel="stylesheet" media="print">
+      <link href="/_public/skins/advanced/ssb.no/styles/responsive.css?_ts=14f4a5fc310" type="text/css" rel="stylesheet" media="screen">
+      <link rel="shortcut icon" href="/_public/skins/advanced/ssb.no/images/favicon.ico?_ts=14f4a5fc310" type="image/x-icon">
+      <link rel="alternate" type="application/rss+xml" title="Nyheter fra Statistisk sentralbyrå" href="/rss">
+      <link rel="alternate" type="application/rss+xml" title="Kommende publiseringer fra Statistisk sentralbyrå" href="/rss/statkal">
+      <link rel="alternate" type="application/rss+xml" title="De siste oppdaterte tabellene i Statistikkbanken" href="/rss/statbank">
+      <meta name="viewport" content="width=device-width"><script src="/_public/skins/advanced/ssb.no/scripts/jquery.min.js?_ts=14f4a5fc310" type="text/javascript" charset="utf-8"></script><script src="/_public/skins/advanced/ssb.no/scripts/jquery-ui-1.8.2.custom.min.js?_ts=14f4a5fc310" type="text/javascript" charset="utf-8"></script><script type="text/javascript" src="/_public/skins/advanced/ssb.no/scripts/ssb.min.js?_ts=14f4a5fc310"></script><script type="text/javascript">
+			jQuery.extend(jQuery.validator.messages, {
+			required: "Feltet må fylles ut",
+			email: "Mailadressen er ugyldig",
+			number: "Kun tall er tillatt",
+			digits: "Kun tall er tillatt",
+			date: "Dato er ugyldig",
+			dateISO: "Dato er ugyldig (ISO)"
+			});
+
+            var regexMeldingFeilmelding = "Ulovlige tegn i meldingsfeltet, vennligst fjern disse tegnene:"; 
+
+		</script><script type="text/javascript" src="/_public/skins/advanced/ssb.no/scripts/ga-main.js?_ts=14f4a5fc310"></script><script title="$language" type="text/javascript" src="/_public/skins/advanced/ssb.no/survey/script/ess-popup-package-oop.js?_ts=14f4a5fc310"></script></head>
+   <body class="innholdsside">
+      <div class="sitewrapper unsupported-browser-alert">
+         <h4>CSS-filen ble ikke lasted ned korrekt, skjermleseren støtter ikke CSS, eller din versjon av Internet Explorer er for gammel
+            for dette nettstedet.
+         </h4>
+         <p>For å få en best mulig opplevelse av å bruke våre nettsider, bør du bruke en nyere versjon av Internet Explorer eller alternative
+            nettlesere. Hvis du bruker en jobb-PC, bør du kontakte IT-ansvarlig.
+         </p>
+      </div>
+      <div class="sitewrapper">
+         <noscript>
+            <p>Denne siden krever en nettleser med JavaScript.</p>
+            <p><a href="http://www.enable-javascript.com/no/" target="_blank">Hvordan og hvorfor aktivere JavaScript i nettleseren</a></p>
+         </noscript>
+      </div>
+      <div id="header" role="banner">
+         <div class="sitewrapper"><a id="logo" href="http://www.ssb.no/" title="Gå til forsiden" accesskey="1"><img src="/_public/skins/advanced/ssb.no/images/SSB_logo.png?_ts=14f4a5fc310" alt="SSB logo (Gå til forsiden)"></a><div id="global-tools">
+               <ul class="global-links nav">
+                  <li id="skip-to-content"><a href="#content" tabindex="1" accesskey="s">Hopp over meny</a></li>
+                  <li id="letter-size" class="first"><span class="screen-reader-only">Velg tekststørrelse</span><ul>
+                        <li><a title="Normal" href="#normal" class="size-default">A<span class="screen-reader-only"> Vanlig</span></a></li>
+                        <li><a title="Stor tekst" href="#stor-tekst" class="size-l">A<span class="screen-reader-only"> Større</span></a></li>
+                        <li><a title="Ekstra stor tekst" href="#ekstra-stor-tekst" class="size-xl">A<span class="screen-reader-only"> Størst</span></a></li>
+                     </ul>
+                  </li>
+                  <li id="global-language" class="bubble-dialog-origin" lang="en"><span class="screen-reader-only" lang="en">Switch language</span><a id="change-language" lang="en" href="/en/StatbankService/rest/StatbankService.svc/excel/query/id/2017654">English</a></li>
+                  <li class="shortcut keywords"><a href="/a-aa" title="Stikkord A-Å">Stikkord A-Å</a></li>
+                  <li id="global-contact" class="shortcut last"><a href="/omssb/kontakt-oss" accesskey="7">Kontakt oss</a></li>
+               </ul>
+            </div>
+            <form id="search" action="/sok" method="get" role="search">
+               <fieldset>
+                  <legend class="screen-reader-only">Nettstedsøk</legend><label for="sok" class="screen-reader-only">Søk</label><input id="sok" name="sok" type="text" value="" accesskey="4" tabindex="5"><input type="submit" value="Søk" class="submit" tabindex="6"></fieldset>
+            </form>
+            <div id="main-menu" role="navigation">
+               <ul id="main-menu-top" class="nav no" role="menu">
+                  <li class="top-level statistikk selected" role="menuitem"><a id="statistics-menu-toggle" class="mega-menu-toggle" href="#statistikker-hovedmeny">Statistikk</a><div id="statistikker-hovedmeny" class="mega-menu hidden-by-default" tabindex="-1">
+                        <p class="screen-reader-only">Liste 1 av 3</p>
+                        <ul class="column first" role="menu">
+                           <li class="topic pengepung" role="menuitem"><a class="topic-link" href="/arbeid-og-lonn">Arbeid og lønn</a><a class="subtopics-toggle" href="#arbeid-og-lonn"><span class="show">vis mer…<span class="screen-reader-only"> Om Arbeid og lønn</span></span><span class="hide">lukk<span class="screen-reader-only"> Arbeid og lønn</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/arbeid-og-lonn?de=Arbeidskonflikter">Arbeidskonflikter</a></li>
+                                 <li role="menuitem"><a href="/arbeid-og-lonn?de=Arbeidskraftkostnader">Arbeidskraftkostnader</a></li>
+                                 <li role="menuitem"><a href="/arbeid-og-lonn?de=Arbeidsledighet">Arbeidsledighet</a></li>
+                                 <li role="menuitem"><a href="/arbeid-og-lonn?de=Arbeidsmilj%C3%B8+og+sykefrav%C3%A6r">Arbeidsmiljø og sykefravær</a></li>
+                                 <li role="menuitem"><a href="/arbeid-og-lonn?de=L%C3%B8nn">Lønn</a></li>
+                                 <li role="menuitem"><a href="/arbeid-og-lonn?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/arbeid-og-lonn?de=Sysselsetting">Sysselsetting</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic myntstabler" role="menuitem"><a class="topic-link" href="/bank-og-finansmarked">Bank og finansmarked</a><a class="subtopics-toggle" href="#bank-og-finansmarked"><span class="show">vis mer…<span class="screen-reader-only"> Om Bank og finansmarked</span></span><span class="hide">lukk<span class="screen-reader-only"> Bank og finansmarked</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/bank-og-finansmarked?de=Andre+finansielle+foretak">Andre finansielle foretak</a></li>
+                                 <li role="menuitem"><a href="/bank-og-finansmarked?de=Finansielle+indikatorer+">Finansielle indikatorer </a></li>
+                                 <li role="menuitem"><a href="/bank-og-finansmarked?de=Finansinstitusjoner">Finansinstitusjoner</a></li>
+                                 <li role="menuitem"><a href="/bank-og-finansmarked?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/bank-og-finansmarked?de=Verdipapirmarkeder">Verdipapirmarkeder</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic menneskegruppe" role="menuitem"><a class="topic-link" href="/befolkning">Befolkning</a><a class="subtopics-toggle" href="#befolkning"><span class="show">vis mer…<span class="screen-reader-only"> Om Befolkning</span></span><span class="hide">lukk<span class="screen-reader-only"> Befolkning</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/befolkning?de=Barn%2C+familier+og+husholdninger">Barn, familier og husholdninger</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=Befolkningsframskrivinger">Befolkningsframskrivinger</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=Flytting">Flytting</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=Folke-+og+boligtellinger">Folke- og boligtellinger</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=Folketall">Folketall</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=F%C3%B8dte+og+d%C3%B8de">Fødte og døde</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=Innvandrere">Innvandrere</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=Likestilling">Likestilling</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/befolkning?de=Navn">Navn</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic hus" role="menuitem"><a class="topic-link" href="/bygg-bolig-og-eiendom">Bygg, bolig og eiendom</a><a class="subtopics-toggle" href="#bygg-bolig-og-eiendom"><span class="show">vis mer…<span class="screen-reader-only"> Om Bygg, bolig og eiendom</span></span><span class="hide">lukk<span class="screen-reader-only"> Bygg, bolig og eiendom</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/bygg-bolig-og-eiendom?de=Bolig+og+boforhold">Bolig og boforhold</a></li>
+                                 <li role="menuitem"><a href="/bygg-bolig-og-eiendom?de=Bygg+og+anlegg">Bygg og anlegg</a></li>
+                                 <li role="menuitem"><a href="/bygg-bolig-og-eiendom?de=Fast+eiendom">Fast eiendom</a></li>
+                                 <li role="menuitem"><a href="/bygg-bolig-og-eiendom?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic fabrikk" role="menuitem"><a class="topic-link" href="/energi-og-industri">Energi og industri</a><a class="subtopics-toggle" href="#energi-og-industri"><span class="show">vis mer…<span class="screen-reader-only"> Om Energi og industri</span></span><span class="hide">lukk<span class="screen-reader-only"> Energi og industri</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/energi-og-industri?de=Elektrisitet+og+annen+energi">Elektrisitet og annen energi</a></li>
+                                 <li role="menuitem"><a href="/energi-og-industri?de=Industri+og+bergverksdrift">Industri og bergverksdrift</a></li>
+                                 <li role="menuitem"><a href="/energi-og-industri?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/energi-og-industri?de=Olje+og+gass">Olje og gass</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic helsekors" role="menuitem"><a class="topic-link" href="/helse">Helse</a><a class="subtopics-toggle" href="#helse"><span class="show">vis mer…<span class="screen-reader-only"> Om Helse</span></span><span class="hide">lukk<span class="screen-reader-only"> Helse</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/helse?de=D%C3%B8ds%C3%A5rsaker">Dødsårsaker</a></li>
+                                 <li role="menuitem"><a href="/helse?de=Funksjonsevne+">Funksjonsevne </a></li>
+                                 <li role="menuitem"><a href="/helse?de=Helseforhold+og+levevaner+">Helseforhold og levevaner </a></li>
+                                 <li role="menuitem"><a href="/helse?de=Helsetjenester">Helsetjenester</a></li>
+                                 <li role="menuitem"><a href="/helse?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic kredittkort" role="menuitem"><a class="topic-link" href="/inntekt-og-forbruk">Inntekt og forbruk</a><a class="subtopics-toggle" href="#inntekt-og-forbruk"><span class="show">vis mer…<span class="screen-reader-only"> Om Inntekt og forbruk</span></span><span class="hide">lukk<span class="screen-reader-only"> Inntekt og forbruk</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/inntekt-og-forbruk?de=Forbruk">Forbruk</a></li>
+                                 <li role="menuitem"><a href="/inntekt-og-forbruk?de=Inntekt+og+formue+">Inntekt og formue </a></li>
+                                 <li role="menuitem"><a href="/inntekt-og-forbruk?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/inntekt-og-forbruk?de=Skatt%2C+personer">Skatt, personer</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic pass" role="menuitem"><a class="topic-link" href="/innvandring-og-innvandrere">Innvandring og innvandrere</a><a class="subtopics-toggle" href="#innvandring-og-innvandrere"><span class="show">vis mer…<span class="screen-reader-only"> Om Innvandring og innvandrere</span></span><span class="hide">lukk<span class="screen-reader-only"> Innvandring og innvandrere</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Arbeid+og+l%C3%B8nn">Arbeid og lønn</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Bank+og+finansmarked">Bank og finansmarked</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Befolkning">Befolkning</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Bygg%2C+bolig+og+eiendom">Bygg, bolig og eiendom</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Helse">Helse</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Inntekt+og+forbruk">Inntekt og forbruk</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Kultur+og+fritid">Kultur og fritid</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Nasjonalregnskap+og+konjunkturer">Nasjonalregnskap og konjunkturer</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Offentlig+sektor">Offentlig sektor</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Sosiale+forhold+og+kriminalitet">Sosiale forhold og kriminalitet</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Teknologi+og+innovasjon">Teknologi og innovasjon</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Utdanning">Utdanning</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Valg">Valg</a></li>
+                                 <li role="menuitem"><a href="/innvandring-og-innvandrere?de=Virksomheter%2C+foretak+og+regnskap">Virksomheter, foretak og regnskap</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <p class="screen-reader-only">Liste 2 av 3</p>
+                        <ul class="column" role="menu">
+                           <li class="topic ku" role="menuitem"><a class="topic-link" href="/jord-skog-jakt-og-fiskeri">Jord, skog, jakt og fiskeri</a><a class="subtopics-toggle" href="#jord-skog-jakt-og-fiskeri"><span class="show">vis mer…<span class="screen-reader-only"> Om Jord, skog, jakt og fiskeri</span></span><span class="hide">lukk<span class="screen-reader-only"> Jord, skog, jakt og fiskeri</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/jord-skog-jakt-og-fiskeri?de=Akvakultur+">Akvakultur </a></li>
+                                 <li role="menuitem"><a href="/jord-skog-jakt-og-fiskeri?de=Fiske+og+fangst">Fiske og fangst</a></li>
+                                 <li role="menuitem"><a href="/jord-skog-jakt-og-fiskeri?de=Jakt">Jakt</a></li>
+                                 <li role="menuitem"><a href="/jord-skog-jakt-og-fiskeri?de=Jordbruk">Jordbruk</a></li>
+                                 <li role="menuitem"><a href="/jord-skog-jakt-og-fiskeri?de=Landbrukseiendommer+">Landbrukseiendommer </a></li>
+                                 <li role="menuitem"><a href="/jord-skog-jakt-og-fiskeri?de=Landbrukstellinger+">Landbrukstellinger </a></li>
+                                 <li role="menuitem"><a href="/jord-skog-jakt-og-fiskeri?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/jord-skog-jakt-og-fiskeri?de=Skogbruk">Skogbruk</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic sol" role="menuitem"><a class="topic-link" href="/kultur-og-fritid">Kultur og fritid</a><a class="subtopics-toggle" href="#kultur-og-fritid"><span class="show">vis mer…<span class="screen-reader-only"> Om Kultur og fritid</span></span><span class="hide">lukk<span class="screen-reader-only"> Kultur og fritid</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/kultur-og-fritid?de=Idrett+og+friluftsliv+">Idrett og friluftsliv </a></li>
+                                 <li role="menuitem"><a href="/kultur-og-fritid?de=Kultur">Kultur</a></li>
+                                 <li role="menuitem"><a href="/kultur-og-fritid?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/kultur-og-fritid?de=Organisasjoner+og+medlemskap">Organisasjoner og medlemskap</a></li>
+                                 <li role="menuitem"><a href="/kultur-og-fritid?de=Religion+og+livssyn">Religion og livssyn</a></li>
+                                 <li role="menuitem"><a href="/kultur-og-fritid?de=Tids-+og+mediebruk">Tids- og mediebruk</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic soylediagram" role="menuitem"><a class="topic-link" href="/nasjonalregnskap-og-konjunkturer">Nasjonalregnskap og konjunkturer</a><a class="subtopics-toggle" href="#nasjonalregnskap-og-konjunkturer"><span class="show">vis mer…<span class="screen-reader-only"> Om Nasjonalregnskap og konjunkturer</span></span><span class="hide">lukk<span class="screen-reader-only"> Nasjonalregnskap og konjunkturer</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/nasjonalregnskap-og-konjunkturer?de=Discussion+Papers">Discussion Papers</a></li>
+                                 <li role="menuitem"><a href="/nasjonalregnskap-og-konjunkturer?de=Finansregnskap+">Finansregnskap </a></li>
+                                 <li role="menuitem"><a href="/nasjonalregnskap-og-konjunkturer?de=Konjunkturer">Konjunkturer</a></li>
+                                 <li role="menuitem"><a href="/nasjonalregnskap-og-konjunkturer?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/nasjonalregnskap-og-konjunkturer?de=Nasjonalregnskap">Nasjonalregnskap</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic blad" role="menuitem"><a class="topic-link" href="/natur-og-miljo">Natur og miljø</a><a class="subtopics-toggle" href="#natur-og-miljo"><span class="show">vis mer…<span class="screen-reader-only"> Om Natur og miljø</span></span><span class="hide">lukk<span class="screen-reader-only"> Natur og miljø</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/natur-og-miljo?de=Areal">Areal</a></li>
+                                 <li role="menuitem"><a href="/natur-og-miljo?de=Avfall">Avfall</a></li>
+                                 <li role="menuitem"><a href="/natur-og-miljo?de=Forurensning+">Forurensning </a></li>
+                                 <li role="menuitem"><a href="/natur-og-miljo?de=Klimagasser+">Klimagasser </a></li>
+                                 <li role="menuitem"><a href="/natur-og-miljo?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/natur-og-miljo?de=Milj%C3%B8%C3%B8konomi">Miljøøkonomi</a></li>
+                                 <li role="menuitem"><a href="/natur-og-miljo?de=Vann+og+avl%C3%B8p">Vann og avløp</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic riksvapen" role="menuitem"><a class="topic-link" href="/offentlig-sektor">Offentlig sektor</a><a class="subtopics-toggle" href="#offentlig-sektor"><span class="show">vis mer…<span class="screen-reader-only"> Om Offentlig sektor</span></span><span class="hide">lukk<span class="screen-reader-only"> Offentlig sektor</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/offentlig-sektor?de=Kommunale+finanser">Kommunale finanser</a></li>
+                                 <li role="menuitem"><a href="/offentlig-sektor?de=KOSTRA">KOSTRA</a></li>
+                                 <li role="menuitem"><a href="/offentlig-sektor?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/offentlig-sektor?de=Offentlig+eide+foretak+">Offentlig eide foretak </a></li>
+                                 <li role="menuitem"><a href="/offentlig-sektor?de=Offentlig+forvaltning+">Offentlig forvaltning </a></li>
+                                 <li role="menuitem"><a href="/offentlig-sektor?de=Skatteregnskap">Skatteregnskap</a></li>
+                                 <li role="menuitem"><a href="/offentlig-sektor?de=Statlige+finanser">Statlige finanser</a></li>
+                                 <li role="menuitem"><a href="/offentlig-sektor?de=StatRes">StatRes</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic etikett" role="menuitem"><a class="topic-link" href="/priser-og-prisindekser">Priser og prisindekser</a><a class="subtopics-toggle" href="#priser-og-prisindekser"><span class="show">vis mer…<span class="screen-reader-only"> Om Priser og prisindekser</span></span><span class="hide">lukk<span class="screen-reader-only"> Priser og prisindekser</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/priser-og-prisindekser?de=Boligpriser+og+boligprisindekser++">Boligpriser og boligprisindekser  </a></li>
+                                 <li role="menuitem"><a href="/priser-og-prisindekser?de=Byggekostnadsindekser+">Byggekostnadsindekser </a></li>
+                                 <li role="menuitem"><a href="/priser-og-prisindekser?de=Kj%C3%B8pekraftspariteter">Kjøpekraftspariteter</a></li>
+                                 <li role="menuitem"><a href="/priser-og-prisindekser?de=Konsumpriser">Konsumpriser</a></li>
+                                 <li role="menuitem"><a href="/priser-og-prisindekser?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/priser-og-prisindekser?de=Produsent-+og+engrosprisindekser">Produsent- og engrosprisindekser</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic paragraftegn" role="menuitem"><a class="topic-link" href="/sosiale-forhold-og-kriminalitet">Sosiale forhold og kriminalitet</a><a class="subtopics-toggle" href="#sosiale-forhold-og-kriminalitet"><span class="show">vis mer…<span class="screen-reader-only"> Om Sosiale forhold og kriminalitet</span></span><span class="hide">lukk<span class="screen-reader-only"> Sosiale forhold og kriminalitet</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/sosiale-forhold-og-kriminalitet?de=Barne-+og+familievern">Barne- og familievern</a></li>
+                                 <li role="menuitem"><a href="/sosiale-forhold-og-kriminalitet?de=Kriminalitet+og+rettsvesen">Kriminalitet og rettsvesen</a></li>
+                                 <li role="menuitem"><a href="/sosiale-forhold-og-kriminalitet?de=Levek%C3%A5r">Levekår</a></li>
+                                 <li role="menuitem"><a href="/sosiale-forhold-og-kriminalitet?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/sosiale-forhold-og-kriminalitet?de=Trygd+og+st%C3%B8nad">Trygd og stønad</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic isbjorn" role="menuitem"><a class="topic-link" href="/svalbard">Svalbard</a><a class="subtopics-toggle" href="#svalbard"><span class="show">vis mer…<span class="screen-reader-only"> Om Svalbard</span></span><span class="hide">lukk<span class="screen-reader-only"> Svalbard</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/svalbard?de=Arbeid+og+l%C3%B8nn">Arbeid og lønn</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Befolkning">Befolkning</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Bygg%2C+bolig+og+eiendom">Bygg, bolig og eiendom</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Energi+og+industri">Energi og industri</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Inntekt+og+forbruk">Inntekt og forbruk</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Jord%2C+skog%2C+jakt+og+fiskeri">Jord, skog, jakt og fiskeri</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Kultur+og+fritid">Kultur og fritid</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Nasjonalregnskap+og+konjunkturer">Nasjonalregnskap og konjunkturer</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Natur+og+milj%C3%B8">Natur og miljø</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Offentlig+sektor">Offentlig sektor</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Priser+og+prisindekser">Priser og prisindekser</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Sosiale+forhold+og+kriminalitet">Sosiale forhold og kriminalitet</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Teknologi+og+innovasjon">Teknologi og innovasjon</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Transport+og+reiseliv">Transport og reiseliv</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Utdanning">Utdanning</a></li>
+                                 <li role="menuitem"><a href="/svalbard?de=Virksomheter%2C+foretak+og+regnskap">Virksomheter, foretak og regnskap</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                        <p class="screen-reader-only">Liste 3 av 3</p>
+                        <ul class="column last" role="menu">
+                           <li class="topic lyspaere" role="menuitem"><a class="topic-link" href="/teknologi-og-innovasjon">Teknologi og innovasjon</a><a class="subtopics-toggle" href="#teknologi-og-innovasjon"><span class="show">vis mer…<span class="screen-reader-only"> Om Teknologi og innovasjon</span></span><span class="hide">lukk<span class="screen-reader-only"> Teknologi og innovasjon</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/teknologi-og-innovasjon?de=Forskning+og+innovasjon+i+n%C3%A6ringslivet+">Forskning og innovasjon i næringslivet </a></li>
+                                 <li role="menuitem"><a href="/teknologi-og-innovasjon?de=Informasjons-+og+kommunikasjonsteknologi+-+IKT">Informasjons- og kommunikasjonsteknologi - IKT</a></li>
+                                 <li role="menuitem"><a href="/teknologi-og-innovasjon?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic koffert" role="menuitem"><a class="topic-link" href="/transport-og-reiseliv">Transport og reiseliv</a><a class="subtopics-toggle" href="#transport-og-reiseliv"><span class="show">vis mer…<span class="screen-reader-only"> Om Transport og reiseliv</span></span><span class="hide">lukk<span class="screen-reader-only"> Transport og reiseliv</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/transport-og-reiseliv?de=Landtransport">Landtransport</a></li>
+                                 <li role="menuitem"><a href="/transport-og-reiseliv?de=Luftfart">Luftfart</a></li>
+                                 <li role="menuitem"><a href="/transport-og-reiseliv?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/transport-og-reiseliv?de=Reiseliv">Reiseliv</a></li>
+                                 <li role="menuitem"><a href="/transport-og-reiseliv?de=Sj%C3%B8transport">Sjøtransport</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic eple" role="menuitem"><a class="topic-link" href="/utdanning">Utdanning</a><a class="subtopics-toggle" href="#utdanning"><span class="show">vis mer…<span class="screen-reader-only"> Om Utdanning</span></span><span class="hide">lukk<span class="screen-reader-only"> Utdanning</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/utdanning?de=Barnehager">Barnehager</a></li>
+                                 <li role="menuitem"><a href="/utdanning?de=Fagskoleutdanning">Fagskoleutdanning</a></li>
+                                 <li role="menuitem"><a href="/utdanning?de=Grunnskoler">Grunnskoler</a></li>
+                                 <li role="menuitem"><a href="/utdanning?de=H%C3%B8yere+utdanning">Høyere utdanning</a></li>
+                                 <li role="menuitem"><a href="/utdanning?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/utdanning?de=Utdanningsniv%C3%A5">Utdanningsnivå</a></li>
+                                 <li role="menuitem"><a href="/utdanning?de=Videreg%C3%A5ende+utdanning">Videregående utdanning</a></li>
+                                 <li role="menuitem"><a href="/utdanning?de=Voksenoppl%C3%A6ring+">Voksenopplæring </a></li>
+                              </ul>
+                           </li>
+                           <li class="topic globus" role="menuitem"><a class="topic-link" href="/utenriksokonomi">Utenriksøkonomi</a><a class="subtopics-toggle" href="#utenriksokonomi"><span class="show">vis mer…<span class="screen-reader-only"> Om Utenriksøkonomi</span></span><span class="hide">lukk<span class="screen-reader-only"> Utenriksøkonomi</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/utenriksokonomi?de=Fordringer+og+gjeld+overfor+utlandet+">Fordringer og gjeld overfor utlandet </a></li>
+                                 <li role="menuitem"><a href="/utenriksokonomi?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/utenriksokonomi?de=Utenrikshandel">Utenrikshandel</a></li>
+                                 <li role="menuitem"><a href="/utenriksokonomi?de=Utenriksregnskap">Utenriksregnskap</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic valgurne" role="menuitem"><a class="topic-link" href="/valg">Valg</a><a class="subtopics-toggle" href="#valg"><span class="show">vis mer…<span class="screen-reader-only"> Om Valg</span></span><span class="hide">lukk<span class="screen-reader-only"> Valg</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/valg?de=Folkeavstemninger+">Folkeavstemninger </a></li>
+                                 <li role="menuitem"><a href="/valg?de=Kommunestyre-+og+fylkestingsvalg+">Kommunestyre- og fylkestingsvalg </a></li>
+                                 <li role="menuitem"><a href="/valg?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/valg?de=Sametingsvalg">Sametingsvalg</a></li>
+                                 <li role="menuitem"><a href="/valg?de=Stortingsvalg">Stortingsvalg</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic handlekurv" role="menuitem"><a class="topic-link" href="/varehandel-og-tjenesteyting">Varehandel og tjenesteyting</a><a class="subtopics-toggle" href="#varehandel-og-tjenesteyting"><span class="show">vis mer…<span class="screen-reader-only"> Om Varehandel og tjenesteyting</span></span><span class="hide">lukk<span class="screen-reader-only"> Varehandel og tjenesteyting</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/varehandel-og-tjenesteyting?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/varehandel-og-tjenesteyting?de=Tjenesteyting">Tjenesteyting</a></li>
+                                 <li role="menuitem"><a href="/varehandel-og-tjenesteyting?de=Varehandel">Varehandel</a></li>
+                              </ul>
+                           </li>
+                           <li class="topic ringperm" role="menuitem"><a class="topic-link" href="/virksomheter-foretak-og-regnskap">Virksomheter, foretak og regnskap</a><a class="subtopics-toggle" href="#virksomheter-foretak-og-regnskap"><span class="show">vis mer…<span class="screen-reader-only"> Om Virksomheter, foretak og regnskap</span></span><span class="hide">lukk<span class="screen-reader-only"> Virksomheter, foretak og regnskap</span></span></a><ul class="subtopics" role="menu">
+                                 <li role="menuitem"><a href="/virksomheter-foretak-og-regnskap?de=Eierskap+og+roller">Eierskap og roller</a></li>
+                                 <li role="menuitem"><a href="/virksomheter-foretak-og-regnskap?de=Konkurser">Konkurser</a></li>
+                                 <li role="menuitem"><a href="/virksomheter-foretak-og-regnskap?de=Metoder+og+dokumentasjon">Metoder og dokumentasjon</a></li>
+                                 <li role="menuitem"><a href="/virksomheter-foretak-og-regnskap?de=Regnskap">Regnskap</a></li>
+                                 <li role="menuitem"><a href="/virksomheter-foretak-og-regnskap?de=Skatt%2C+n%C3%A6ringsvirksomhet">Skatt, næringsvirksomhet</a></li>
+                                 <li role="menuitem"><a href="/virksomheter-foretak-og-regnskap?de=Virksomheter+og+foretak">Virksomheter og foretak</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="top-level forskning" role="menuitem"><a id="forskning-menu-toggle" class="mega-menu-toggle" href="#forskning-hovedmeny">Forskning</a></li>
+                  <li class="top-level innrapportering" role="menuitem"><a href="/innrapportering" title="Innrapportering">Innrapportering</a></li>
+                  <li class="top-level omssb" role="menuitem"><a id="omssb-menu-toggle" class="mega-menu-toggle" href="#omssb-hovedmeny">Om SSB</a></li>
+                  <li class="top-level mittssb" role="menuitem"><a href="/mittssb/profil" title="Mitt SSB ">Mitt SSB </a></li>
+               </ul>
+               <div id="forskning-hovedmeny" class="mega-menu hidden-by-default" tabindex="-1">
+                  <div class="column first">
+                     <p class="kolonneoverskrift"><span class="screen-reader-only">Liste med </span>Forskningsområder
+                     </p>
+                     <ul class="nav" role="menu">
+                        <li role="menuitem" class="topic person parent"><a class="topic-link" href="/forskning/demografi-og-levekaar"><span class="text">Demografi og levekår</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                              <li role="menuitem"><a href="/forskning/demografi-og-levekaar/befolkningsutvikling-flytting-og-dodelighet">Befolkningsutvikling, flytting og dødelighet</a></li>
+                              <li role="menuitem"><a href="/forskning/demografi-og-levekaar/fruktbarhet-og-familiedemografi">Fruktbarhet og familiedemografi</a></li>
+                              <li role="menuitem"><a href="/forskning/demografi-og-levekaar/levekaar-og-sosial-deltaking">Levekår og sosial deltaking</a></li>
+                           </ul>
+                        </li>
+                        <li role="menuitem" class="topic sparepaere parent"><a class="topic-link" href="/forskning/energi-og-miljookonomi"><span class="text">Energi- og miljøøkonomi</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                              <li role="menuitem"><a href="/forskning/energi-og-miljookonomi/baerekraftig-utvikling">Bærekraftig utvikling</a></li>
+                              <li role="menuitem"><a href="/forskning/energi-og-miljookonomi/energi-og-miljopolitikk">Energi- og miljøpolitikk</a></li>
+                              <li role="menuitem"><a href="/forskning/energi-og-miljookonomi/husholdningers-energiforbruk">Husholdningers energiforbruk</a></li>
+                              <li role="menuitem"><a href="/forskning/energi-og-miljookonomi/klimapolitikk-og-okonomi">Klimapolitikk og økonomi</a></li>
+                              <li role="menuitem"><a href="/forskning/energi-og-miljookonomi/kraftmarkeder">Kraftmarkeder</a></li>
+                              <li role="menuitem"><a href="/forskning/energi-og-miljookonomi/olje-og-gassmarkeder">Olje- og gassmarkeder</a></li>
+                              <li role="menuitem"><a href="/forskning/energi-og-miljookonomi/teknologi-innovasjon-og-vekst">Teknologi, innovasjon og vekst</a></li>
+                           </ul>
+                        </li>
+                        <li role="menuitem" class="topic jordklode parent"><a class="topic-link" href="/forskning/makrookonomi"><span class="text">Makroøkonomi</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                              <li role="menuitem"><a href="/forskning/makrookonomi/generelle-likevektsmodeller">Generelle likevektsmodeller</a></li>
+                              <li role="menuitem"><a href="/forskning/makrookonomi/konjunkturanalyser-og-prognoser">Konjunkturanalyser og prognoser</a></li>
+                              <li role="menuitem"><a href="/forskning/makrookonomi/makrookonometrisk-modellering">Makroøkonometrisk modellering</a></li>
+                              <li role="menuitem"><a href="/forskning/makrookonomi/makrookonomiske-analyser">Makroøkonomiske analyser</a></li>
+                              <li role="menuitem"><a href="/forskning/makrookonomi/offentlige-finanser-paa-lang-sikt">Offentlige finanser på lang sikt</a></li>
+                              <li role="menuitem"><a href="/forskning/makrookonomi/regional-okonomi">Regional økonomi</a></li>
+                              <li role="menuitem"><a href="/forskning/makrookonomi/tidsserieokonometri">Tidsserieøkonometri</a></li>
+                              <li role="menuitem"><a href="/forskning/makrookonomi/okonomisk-vekst">Økonomisk vekst</a></li>
+                           </ul>
+                        </li>
+                        <li role="menuitem" class="topic hoyhus parent"><a class="topic-link" href="/forskning/mikrookonomi"><span class="text">Mikroøkonomi</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/arbeidsmarked">Arbeidsmarked</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/bedriftsatferd">Bedriftsatferd</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/inntektsfordeling">Inntektsfordeling</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/kommunal-okonomi">Kommunal økonomi</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/konsumentatferd">Konsumentatferd</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/pensjoner">Pensjoner</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/skatt">Skatt</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/sparing">Sparing</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/utdanningsokonomi">Utdanningsøkonomi</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/okonometriske-metoder-og-mikrookonometri">Økonometriske metoder og mikroøkonometri</a></li>
+                              <li role="menuitem"><a href="/forskning/mikrookonomi/okonomisk-historie">Økonomisk historie</a></li>
+                           </ul>
+                        </li>
+                        <li role="menuitem" class="topic riksvapen parent"><a class="topic-link" href="/forskning/offentlig-okonomi"><span class="text">Offentlig økonomi</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                              <li role="menuitem"><a href="/forskning/offentlig-okonomi/arbeidsmarked">Arbeidsmarked</a></li>
+                              <li role="menuitem"><a href="/forskning/offentlig-okonomi/inntektsfordeling">Inntektsfordeling</a></li>
+                              <li role="menuitem"><a href="/forskning/offentlig-okonomi/kommunal-okonomi">Kommunal økonomi</a></li>
+                              <li role="menuitem"><a href="/forskning/offentlig-okonomi/offentlige-finanser-paa-lang-sikt">Offentlige finanser på lang sikt</a></li>
+                              <li role="menuitem"><a href="/forskning/offentlig-okonomi/offentlig-okonomi-mikrookonomi">Offentlig økonomi - mikroøkonomi</a></li>
+                              <li role="menuitem"><a href="/forskning/offentlig-okonomi/pensjoner">Pensjoner</a></li>
+                              <li role="menuitem"><a href="/forskning/offentlig-okonomi/skatt">Skatt</a></li>
+                              <li role="menuitem"><a href="/forskning/offentlig-okonomi/utdanningsokonomi">Utdanningsøkonomi</a></li>
+                           </ul>
+                        </li>
+                        <li role="menuitem" class="topic soyler parent"><a class="topic-link" href="/forskning/statistiske-metoder-og-standarder"><span class="text">Statistiske metoder og standarder</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                              <li role="menuitem"><a href="/forskning/statistiske-metoder-og-standarder/estimering-av-detaljert-statistikk">Estimering av detaljert statistikk </a></li>
+                              <li role="menuitem"><a href="/forskning/statistiske-metoder-og-standarder/frafall-og-imputering">Frafall og imputering</a></li>
+                              <li role="menuitem"><a href="/forskning/statistiske-metoder-og-standarder/generell-inferensteori">Generell inferensteori</a></li>
+                              <li role="menuitem"><a href="/forskning/statistiske-metoder-og-standarder/metadata">Metadata</a></li>
+                              <li role="menuitem"><a href="/forskning/statistiske-metoder-og-standarder/statistisk-konfidensialitet">Statistisk konfidensialitet</a></li>
+                              <li role="menuitem"><a href="/forskning/statistiske-metoder-og-standarder/teori-og-metoder-for-utvalgsundersokelser">Teori og metoder for utvalgsundersøkelser</a></li>
+                              <li role="menuitem"><a href="/forskning/statistiske-metoder-og-standarder/tidsserieanalyse-og-sesongjustering">Tidsserieanalyse og sesongjustering</a></li>
+                              <li role="menuitem"><a href="/forskning/statistiske-metoder-og-standarder/utvalgsplanlegging-og-datarevisjon">Utvalgsplanlegging og datarevisjon</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="column">
+                     <p class="kolonneoverskrift"><span class="screen-reader-only">Liste med </span>Om forskning i SSB
+                     </p>
+                     <ul class="nav" role="menu">
+                        <li role="menuitem" class="topic avis"><a class="topic-link" href="/forskning/nyheter-om-forskning"><span class="text">Nyheter om forskning</span></a></li>
+                        <li role="menuitem" class="topic analyse"><a class="topic-link" href="/forskning/om-virksomheten"><span class="text">Om virksomheten</span></a></li>
+                        <li role="menuitem" class="topic kalender"><a class="topic-link" href="/forskning/kommende-begivenheter"><span class="text">Kommende begivenheter</span></a></li>
+                        <li role="menuitem" class="topic personer"><a class="topic-link" href="/forskning/ansatte"><span class="text">Ansatte</span></a></li>
+                        <li role="menuitem" class="topic kalkulator"><a class="topic-link" href="/forskning/beregningsmodeller"><span class="text">Beregningsmodeller</span></a></li>
+                     </ul>
+                  </div>
+                  <div class="column last">
+                     <p class="kolonneoverskrift"><span class="screen-reader-only">Liste med </span>Publiseringer
+                     </p>
+                     <ul class="nav" role="menu">
+                        <li role="menuitem" class="topic publikasjon"><a class="topic-link" href="/forskning/eksterne-publiseringer"><span class="text">Eksterne publiseringer</span></a></li>
+                        <li role="menuitem" class="topic dokumenter"><a class="topic-link" href="/forskning/discussion-papers"><span class="text">Discussion papers</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div id="omssb-hovedmeny" class="mega-menu hidden-by-default" tabindex="-1">
+                  <p class="screen-reader-only">Liste 1 av 3</p>
+                  <ul class="nav column first" role="menu">
+                     <li role="menuitem" class="topic logo parent"><a class="topic-link" href="/omssb/om-oss"><span class="text">Om oss</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                           <li role="menuitem"><a href="/omssb/om-oss/kort-om-ssb">Kort om SSB</a></li>
+                           <li role="menuitem"><a href="/omssb/om-oss/vaar-virksomhet">Vår virksomhet</a></li>
+                           <li role="menuitem"><a href="/omssb/om-oss/historie">Historie</a></li>
+                           <li role="menuitem"><a href="/omssb/om-oss/aarsmeldinger-og-aarsrapporter">Årsmeldinger og årsrapporter</a></li>
+                           <li role="menuitem"><a href="/omssb/om-oss/nyheter-om-ssb">Nyheter om SSB</a></li>
+                        </ul>
+                     </li>
+                     <li role="menuitem" class="topic flytskjema parent"><a class="topic-link" href="/omssb/ledelse-og-organisasjon"><span class="text">Ledelse og organisasjon</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                           <li role="menuitem"><a href="/omssb/ledelse-og-organisasjon/organisasjonskart">Organisasjonskart</a></li>
+                           <li role="menuitem"><a href="/omssb/ledelse-og-organisasjon/ledelsen">Ledelsen</a></li>
+                        </ul>
+                     </li>
+                     <li role="menuitem" class="topic dokumenter parent"><a class="topic-link" href="/omssb/styringsdokumenter"><span class="text">Styringsdokumenter</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                           <li role="menuitem"><a href="/omssb/styringsdokumenter/strategier">Strategier</a></li>
+                           <li role="menuitem"><a href="/omssb/styringsdokumenter/virksomhetsplaner">Virksomhetsplaner</a></li>
+                           <li role="menuitem"><a href="/omssb/styringsdokumenter/formidlingspolitikk">Prinsipper for kommunikasjon og formidling</a></li>
+                           <li role="menuitem"><a href="/omssb/styringsdokumenter/lover-og-prinsipper">Lover og prinsipper</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <p class="screen-reader-only">Liste 2 av 3</p>
+                  <ul class="nav column" role="menu">
+                     <li role="menuitem" class="topic ansatt parent"><a class="topic-link" href="/omssb/jobb-i-ssb"><span class="text">Jobb i SSB</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                           <li role="menuitem"><a href="/omssb/jobb-i-ssb/hvorfor-jobbe-i-ssb">Hvorfor jobbe i SSB</a></li>
+                           <li role="menuitem"><a href="/omssb/jobb-i-ssb/mot-vaare-ansatte">Møt våre ansatte</a></li>
+                           <li role="menuitem"><a href="/omssb/jobb-i-ssb/ledige-stillinger">Ledige stillinger</a></li>
+                           <li role="menuitem"><a href="/omssb/jobb-i-ssb/for-studenter">For studenter</a></li>
+                        </ul>
+                     </li>
+                     <li role="menuitem" class="topic tannhjul parent"><a class="topic-link" href="/omssb/tjenester-og-verktoy"><span class="text">Tjenester og verktøy</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/kurs-og-seminarer">Kurs og seminarer</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/informasjonstjenesten">Informasjonstjenesten</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/biblioteket">Biblioteket</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/statistikkbanken">Statistikkbanken</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/vaare-visualiseringer">Våre visualiseringer</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/s%C3%B8k-p%C3%A5-navn">Søk på navn</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/vaare-kalkulatorer">Våre kalkulatorer</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/api">Åpne data med API</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/statistikk-paa-oppdrag">Statistikk på oppdrag</a></li>
+                           <li role="menuitem"><a href="/omssb/tjenester-og-verktoy/data-til-forskning">Data til forskning</a></li>
+                        </ul>
+                     </li>
+                     <li role="menuitem" class="topic konvolutt"><a class="topic-link" href="/omssb/kontakt-oss"><span class="text">Kontakt oss</span></a></li>
+                  </ul>
+                  <p class="screen-reader-only">Liste 3 av 3</p>
+                  <ul class="nav column last" role="menu">
+                     <li role="menuitem" class="topic handtrykk parent"><a class="topic-link" href="/omssb/samarbeid"><span class="text">Samarbeid</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                           <li role="menuitem"><a href="/omssb/samarbeid/internasjonalt-statistikksamarbeid">Internasjonalt statistikksamarbeid</a></li>
+                           <li role="menuitem"><a href="/omssb/samarbeid/internasjonalt-utviklingssamarbeid">Internasjonalt utviklingssamarbeid</a></li>
+                           <li role="menuitem"><a href="/omssb/samarbeid/statistikkraadet">Statistikkrådet</a></li>
+                        </ul>
+                     </li>
+                     <li role="menuitem" class="topic hengelas parent"><a class="topic-link" href="/omssb/personvern"><span class="text">Personvern</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                           <li role="menuitem"><a href="/omssb/personvern/dine-rettigheter">Dine rettigheter </a></li>
+                           <li role="menuitem"><a href="/omssb/personvern/analyseverkt%C3%B8y-for-webstatistikk">Analyseverktøy for webstatistikk</a></li>
+                           <li role="menuitem"><a href="/omssb/personvern/personvernombudet-i-ssb">Personvernombudet i SSB</a></li>
+                           <li role="menuitem"><a href="/omssb/personvern/personvern-og-datasikkerhet">Personvern og datasikkerhet</a></li>
+                           <li role="menuitem"><a href="/omssb/personvern/behandling-av-personopplysninger">Behandling av personopplysninger</a></li>
+                        </ul>
+                     </li>
+                     <li role="menuitem" class="topic avis parent"><a class="topic-link" href="/omssb/for-pressen"><span class="text">For pressen</span></a><a class="subtopics-toggle" href="#"><span class="show">vis mer…<span class="screen-reader-only"> Om </span></span><span class="hide">lukk<span class="screen-reader-only"> </span></span></a><ul class="nav subtopics" role="menu">
+                           <li role="menuitem"><a href="/omssb/for-pressen/ssb-kommenterer">SSB kommenterer</a></li>
+                           <li role="menuitem"><a href="/omssb/for-pressen/pressehenvendelser-til-ssb">Pressehenvendelser til SSB</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="page">
+         <div class="sitewrapper">
+            <div id="content" role="main" tabindex="-1"><div id="error-page" class="section"><img alt="404" src="/_public/skins/advanced/ssb.no/images/404.png?_ts=14f4a5fc310" style="float:left; "><div style="float: left; width: 500px; padding-top: 1.2em;">
+      <h1>
+         									Siden ble ikke funnet - 404
+         								
+      </h1>
+      <p>Du har dessverre havnet på en side som ikke finnes. Informasjonen som var på denne siden er høyst sannsynlig flyttet, fått
+         nytt navn eller fjernet fordi den er utdatert. 
+      </p>
+      <h3>Vennligst prøv ett av følgende:</h3>
+      <ul style="list-style: disc; padding-left: 2.5em; font-size: 1.3em; padding-bottom: 1em;">
+         <li>Sjekk om du har stavet sidens adresse riktig i adressefeltet.</li>
+         <li>Gå til <a href="/">www.ssb.no</a> og se om du kan finne siden derfra.
+         </li>
+         <li>Gå <a href="javascript:history.go(-1)">tilbake</a> for å prøve en annen lenke
+         </li>
+         <li>Søk etter siden i søkefeltet nedenfor</li>
+      </ul>
+   </div>
+   <div style="padding-top: 1em; float: left;">
+      <form id="search-404" method="get" action="/sok">
+         <div><label>Søk/Search</label><input id="sok-404" type="text" value="" name="sok"><input class="submit" type="submit" tabindex="2" value="Søk / Search"></div>
+      </form>
+   </div>
+   <div style="float: left; width: 500px; padding-top: 3em;">
+      <h1>Page not found - 404</h1>
+      <p>The page you were looking for cannot be found. It might have been moved, removed because of outdated content, or had its name
+         changed.
+      </p>
+      <h3>Please try one of the following actions:</h3>
+      <ul style="list-style: disc; padding-left: 2.5em; font-size: 1.3em; padding-bottom: 1em; ">
+         <li>Check if you typed the page address correctly in the address field.</li>
+         <li>Go to <a href="/">www.ssb.no</a> and see if you can locate the page from there.
+         </li>
+         <li>Go <a href="javascript:history.go(-1)">back</a> to try another link.
+         </li>
+         <li>Try searching for the page you were looking for in the search box above.</li>
+      </ul>
+   </div>
+</div></div>
+         </div>
+      </div>
+      <div id="footer" role="banner">
+         <div class="sitewrapper">
+            <ul class="global-links nav below">
+               <li class="first"><a href="/omssb/kontakt-oss">Kontakt oss</a></li>
+               <li><a href="/mittssb/epost/?lang=no">Nyhetsbrev </a></li>
+               <li><a href="/nettstedskart" accesskey="3">Nettstedskart</a></li>
+               <li><a href="/omssb/personvern/">Personvern </a></li>
+               <li class="last"><a href="/informasjon/copyright">2015 © Statistisk sentralbyrå</a></li>
+            </ul>
+            <ul class="social-links">
+               <li><a title="Twitter" href="https://twitter.com/ssbnytt"><img alt="Twitter" src="/_public/skins/advanced/ssb.no/images/icon-twitter-footer.png?_ts=14f4a5fc310"></a></li>
+               <li><a title="RSS" href="/informasjon/rss"><img alt="RSS" src="/_public/skins/advanced/ssb.no/images/icon-rss-footer.png?_ts=14f4a5fc310"></a></li>
+            </ul>
+         </div>
+      </div><script type="text/javascript" src="/_public/skins/advanced/ssb.no/scripts/ua-events.js?_ts=14f4a5fc310"></script></body>
+</html>
